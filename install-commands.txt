@@ -1,0 +1,12 @@
+Command #1 (Install Swagger)
+>> composer require darkaonline/l5-swagger
+
+##############################################
+
+Command #2 (Publish Config File)
+>> php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+
+##############################################
+
+Command #3 (Generate Swagger Document)
+>> php artisan l5-swagger:generate
